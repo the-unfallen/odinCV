@@ -1,0 +1,122 @@
+/* #educationDiv > div {
+} */
+
+#editEducationDiv {
+    display: none;
+}
+
+
+#educationDiv:hover #editEducationDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: -12px;
+}
+
+#educationTitle {
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 12px;
+}
+
+#educationDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.educationButtonsBlock {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-left: 12px;
+    padding-right: 12px;
+    /* font-size: 12px; */
+}
+
+.editEducationSegment {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.educationButtonsBlock {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.educationButtonsBlock :nth-child(1) {
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.educationButtonsBlock :nth-child(2) {
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 18px;
+    color: white;
+    background-color: #333;
+    outline: 0;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.educationButtonsBlock :nth-child(2):hover {
+    transform: scale(1.15);
+}
+
+
+#minus_svg:hover {
+    transform: scale(1.20);
+}
+
+#submitEducation, #backFromNew {
+    cursor: pointer;
+    outline: 0;
+    border: 2px solid #333;
+    background-color: #333333;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    /* padding-left: 24px; */
+    /* padding-right: 24px; */
+    font-family: "Merriweather", serif;
+    /* width: 60%; */
+    /* margin: 0 auto; */
+    font-size: 14px;
+}
+
+#backFromNew {
+    width: 60px;
+}
+
+/* #submitEducation:hover, #backFromNew:hover {
+    transform: scale(1.10);
+} */
+
+#addEducationDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#addEducationDiv input {
+    border-radius: 6px;
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+.buttonGroupsForNewEducationRecord {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addSkills {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}

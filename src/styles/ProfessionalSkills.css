@@ -1,0 +1,124 @@
+/* #profSkillsDiv {
+    margin-top: 24px;
+} */
+
+
+#editProfessionalSkillsDiv {
+    display: none;
+}
+
+#profSkillsDiv:hover #editProfessionalSkillsDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 12px 0px;
+}
+
+.addSkills {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.addSkills input {
+    width: 75%;
+    border-radius: 8px;
+    padding-left: 8px;
+
+}
+
+.profSkillItem {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 12px;
+
+}
+
+#profSkillsTitle, #profSkillsTitle2 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 1px solid grey;
+    margin-bottom: 12px;
+    
+}
+
+#profSkillsTitle2 {
+    margin-top: 24px;
+}
+
+.profprof {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#profSkillsDiv li {
+    list-style-type: square;
+}
+
+
+.profSkillsButtonGroup {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+
+
+}
+
+
+#removeButton, #addAskillButton, #addASkillComp {
+    background-color: white;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+#removeButton:hover, #addAskillButton:hover {
+    transform: scale(1.2);
+}
+
+#editbuttonProf, #doneButtonProf, #doneButtonProf2, #compDone, #compDone2{
+    border: 1px solid #333;
+    background-color: #333;
+    color: white;
+    outline: 0;
+    border-radius: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 84px;
+    font-family: "Merriweather", serif;
+    cursor: pointer;
+}
+
+/* #doneButtonProf {
+    margin: 0 auto;
+} */
+
+.doneSkills {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 18px;
+    padding-left: 20%;
+}
+
+.miniEditClass {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.miniEditClass input {
+    border-radius: 8px;
+    padding-left: 8px;
+    
+}
+
+.miniEditClass button {
+    margin-left: 36px;
+    
+}

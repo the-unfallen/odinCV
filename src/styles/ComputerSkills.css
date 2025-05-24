@@ -1,0 +1,109 @@
+/* #compSkillsDiv {
+    border: 1px solid #333;
+} */
+
+#editComputerSkillsDiv {
+    display: none;
+}
+
+#compSkillsDiv:hover #editComputerSkillsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 12px 0px;
+}
+
+#compSkillsTitle {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 1px solid grey;
+    margin-bottom: 18px;
+}
+
+#compSkillsDiv li {
+    list-style-type: square;
+}
+
+#contactEditForm {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#contactEditForm input {
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+#contactEditForm > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.compSkillItem {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 12px;
+
+}
+
+.compSkillsButtonGroup {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+#removeButtonComp {
+    background-color: white;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+#editButtonComp {
+    border: 1px solid #333;
+    background-color: #333;
+    color: white;
+    outline: 0;
+    border-radius: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 84px;
+    font-family: "Merriweather", serif;
+    cursor: pointer;
+}
+
+#addAskillComp {
+    background-color: white;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+#addAskillComp:hover {
+    transform: scale(1.2);
+}
+
+.addSkillsComp {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.addSkillsComp input {
+    width: 75%;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+
+.addSkillsComp button:hover {
+    transform: scale(1.2);
+}
+
+#compDone:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,154 @@
+#workExperienceDiv {
+    padding: 16px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+ul.custom-indent {
+    list-style-position: outside;
+    padding-left: 1.5em;
+    /* Adjust to your desired indent */
+}
+
+#editWorkDiv {
+    display: none;
+}
+
+#workExperienceDiv:hover #editWorkDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0px;
+}
+
+.jdTextArea {
+    width: 100%;
+}
+
+#workTitle {
+    border-bottom: 1px solid grey;
+    /* margin-bottom: 18px; */
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-left: 16px;
+}
+
+.jobDescriptionClass {
+    margin-top: 12px;
+}
+
+.edit-button-group-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    gap: 48px
+}
+
+.mini-edit-button {
+    display: inline-block;
+    border: 1px solid #333333;
+    outline: 0;
+    background-color: #333333;
+    color: white;
+    font-size: 16px;
+    height: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    transition-delay: 0.2s;
+    
+}
+
+.mini-edit-button:hover {
+    background-color: white;
+    color: #333;
+    border: 2px solid #333;
+    box-shadow: 2px 2px 2px rgba(51, 51, 51, 0.8);
+}
+
+.mini-edit-minus {
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    transition-delay: 0.2s;
+}
+
+.mini-edit-minus:hover {
+    transform: scale(1.25);
+}
+
+.newWorkForm {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.newWorkForm div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.newWorkForm input, .newWorkForm textarea {
+    border: 2px solid #333;
+    padding-left: 8px;
+}
+
+.descriptionDisplay {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.descriptionUnit {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.descriptionUnitButton {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.jdButtonUnit {
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    transition-delay: 0.2s;
+}
+
+.jdButtonUnit:hover {
+    transform: scale(1.2);
+}
+
+.addDescriptionButton {
+    background-color: #333;
+    outline: 0;
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.descriptionLabel {
+    margin-bottom: -12px;
+}
+
+.bottomButtons {
+    display: flex;
+    flex-direction: row !important;
+    gap: 48px;
+    justify-content: space-around;
+}

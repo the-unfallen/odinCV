@@ -1,0 +1,72 @@
+#pageDiv {
+  width: 750px;
+  min-height: 400px;
+  margin: 24px;
+  color: black;
+  background-color: white;
+  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+#pageDiv li {
+  list-style-type: square;
+}
+
+@media print {
+  /* Hide UI elements */
+  .no-print, nav, button {
+    display: none !important;
+  }
+
+  #pageDiv {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 12pt;
+    line-height: 1.4;
+    box-sizing: border-box;
+    box-shadow: none !important;
+  }
+
+  /* Clean up all shadows */
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* Avoid awkward page breaks */
+  .section, .experience-entry, .education-entry {
+    break-inside: auto;
+    page-break-inside: auto;
+  }
+
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* Adjust header layout */
+  #fullName, #pageHeader {
+    margin: 0;
+    padding: 0;
+  }
+
+  @page {
+    margin-top: 0.60in;
+    margin-right: 0.60in;
+    margin-bottom: 0.60in;
+    margin-left: 0.60in;
+  }
+
+  @page:first {
+    margin-top: 0.40in;
+  }
+
+  #pageMain {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

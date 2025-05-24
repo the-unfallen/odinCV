@@ -1,0 +1,70 @@
+#contactSegment {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+#contactSegment > div {
+    display: flex;
+    gap: 16px;
+}
+
+#editContact {
+    display: none;
+
+}
+
+#editContactDiv, #editEducationDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 12px 0px;
+}
+
+#contactSegment:hover button {
+    display: inline-block;
+}
+
+
+
+.button-parent button, #submitContactDiv button{
+    /* width: 90px; */
+    cursor: pointer;
+    outline: 0;
+    border: 2px solid #333;
+    background-color: #333333;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: "Merriweather", serif;
+}
+
+.button-parent button:hover, #submitContactDiv button:hover {
+    background-color: white;
+    color: #333;
+    border: 2px solid #333;
+    box-shadow: 2px 2px 2px rgba(51, 51, 51, 0.8);
+}
+
+#submitContactDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+#submitContactDiv button:hover {
+    transform: scale(1.25);
+}
+
+#contactHeader {
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 18px;
+}

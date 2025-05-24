@@ -1,0 +1,29 @@
+#pageMain{
+    flex-grow: 1;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    padding: 16px 32px;
+    /* font-family: "Merriweather", serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: "Lato", sans-serif; */
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    
+}
+
+#leftSection {
+    /* border: 2px solid #333; */
+    width: 35%;
+    /* height: 400px; */
+    padding: 16px;
+}
+
+#rightSection {
+    border-left: 1px solid grey;
+    width: 65%;
+    flex-grow: 1;
+}
+

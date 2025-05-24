@@ -1,0 +1,30 @@
+.width100{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.width100 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.manageSectionDisplay {
+    display: none;
+}
+
+#pageMain:hover .manageSectionDisplay {
+    display: flex;
+    
+}
+
+#pageMain button {
+    cursor: pointer;
+}
+
+.manageSectionDisplay:hover {
+    transform: scale(1.2);
+}

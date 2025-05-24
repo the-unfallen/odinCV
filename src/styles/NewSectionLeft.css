@@ -1,0 +1,19 @@
+.add-custom-section-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 700;
+    border: 2px solid #333;
+    border-radius: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.add-custom-section-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
