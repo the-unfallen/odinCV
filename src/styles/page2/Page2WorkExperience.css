@@ -1,0 +1,98 @@
+/* css import confirmed */
+.p2SectionTitle {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: lightgray;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Merriweather', sans-serif;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.p2JobDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p2NormalWorkBlock {
+    margin-bottom: 18px;
+}
+
+.p2WorkButtons {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.p2NewWorkForm{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 12px;
+}
+
+.p2WorkEntry {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 18px;
+
+}
+
+.p2WorkEntry input {
+    width: 70%;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.p2JobDescLabel {
+    padding-left: 18px;
+}
+
+.p2RemoveDescription {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.p2RemoveDescription button {
+    border-radius: 4px;
+}
+
+.p2AddNewDesc {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    transform: scale(1.1);
+}
+
+.p2SubmitandBack {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.p2SubmitandBack button {
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    font-family: 'Merriweather', sans-serif;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.p2SubmitandBack button:hover {
+    transform: scale(1.05);
+}
+
+

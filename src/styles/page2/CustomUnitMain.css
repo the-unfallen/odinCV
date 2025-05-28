@@ -1,0 +1,26 @@
+.p2CustomTitleSubmit {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    /* padding-right: 48px; */
+}
+
+.p2CustomValuesEdit {
+    padding-left: 18px;
+    padding-right: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.p2CustomValuesEdit textarea {
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.p2CustomValuesEdit div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}

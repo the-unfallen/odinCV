@@ -1,0 +1,53 @@
+#p2E {
+    min-height: 100px;
+    /* background-color: coral; */
+    border: 4px solid gold;
+}
+
+.p2EducationBox {
+    margin-bottom: 18px;
+}
+
+.p2DegreeDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p2WorkEntryGroup {
+    margin-bottom: 18px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 12px;
+}
+
+.p2EditandRemove {
+    display: flex;
+    width: 50%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+
+.p2EducationBlock {
+    margin-bottom: 18px;
+}
+
+.p2NewEducation {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.p2EducationButtons {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.p2EducationLog {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

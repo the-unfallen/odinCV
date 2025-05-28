@@ -1,0 +1,109 @@
+/* Import of css file to component confirmed */
+
+#page2Header {
+    padding-top: 12px;
+}
+
+.sectionContainer {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 24px;
+}
+
+.sectionEdit {
+    display: none;
+}
+
+.sectionContainer:hover .sectionEdit {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 48px;
+}
+
+.sectionContainer button {
+    cursor: pointer;
+}
+
+.p2FullName {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 700;
+}
+
+.p2Contact {
+    margin-bottom: 24px;
+}
+
+.p2JobTitle {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.p2Summary {
+    text-align: justify;
+}
+
+.page2HeaderEdit {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.headerEntry input {
+    width: 70%;
+    padding-left: 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.headerEntry {
+    width: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.headerEntry label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.headerTextArea textarea {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: justify;
+}
+
+
+.headerTextArea {
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-top: 8px;
+}
+
+.headerSubmit {
+    display: flex;
+    justify-content: center;
+}
+
+.headerSubmit button {
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    font-family: 'Merriweather', sans-serif;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.headerSubmit button:hover {
+    transform: scale(1.05);
+}
