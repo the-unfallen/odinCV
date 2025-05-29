@@ -8,33 +8,45 @@ import '../../styles/page2/Page2WorkExperience.css'
 
 const Page2WorkExperience = () => {
     const jobHistory = [
-        {title:'Site Surveyor', company: 'Dangote', location:'Lagos', duration:'2023 - Present', 
-            'jobDescription':[
-                {details: 'Conducted topographic, boundary, and construction layout surveys using GPS and total station equipment.', id:crypto.randomUUID()},  
-                {details: 'Interpreted site plans and provided accurate measurements to support civil and structural engineering projects.', id:crypto.randomUUID()},
-                {details: 'Coordinated with contractors and project managers to ensure alignment of on-site measurements with design specifications.', id:crypto.randomUUID()}, 
-                {details: "Prepared detailed survey reports, CAD drawings, and documentation for project records and regulatory compliance.", id:crypto.randomUUID()}
-            ], 
-            id:crypto.randomUUID()
+        {
+            title: 'Job Title',
+            company: 'Company Name',
+            location: 'City',
+            duration: 'Start Year - End Year',
+            jobDescription: [
+            { details: 'Description of responsibility or achievement.', id: crypto.randomUUID() },
+            { details: 'Description of responsibility or achievement.', id: crypto.randomUUID() },
+            { details: 'Description of responsibility or achievement.', id: crypto.randomUUID() },
+            { details: 'Description of responsibility or achievement.', id: crypto.randomUUID() }
+            ],
+            id: crypto.randomUUID()
         },
-        {title:'Assistant Surveyor', company: 'Shell', location:'Lokoja', duration:'2020 - 2022', 
-            'jobDescription':[
-                {details: 'Supported senior surveyors in collecting field data using GPS, total stations, and leveling instruments.', id:crypto.randomUUID()},  
-                {details: 'Assisted in preparing survey drawings, maps, and reports using CAD and GIS software.', id:crypto.randomUUID()},
-                {details: 'Helped in marking boundaries and reference points on construction sites under supervision.', id:crypto.randomUUID()}, 
-                {details: "Performed data entry, quality checks, and organized field notes for project documentation.", id:crypto.randomUUID()}
-            ], 
-            id:crypto.randomUUID()
+        {
+            title: 'Job Title',
+            company: 'Company Name',
+            location: 'City',
+            duration: 'Start Year - End Year',
+            jobDescription: [
+            { details: 'Description of responsibility or achievement.', id: crypto.randomUUID() },
+            { details: 'Description of responsibility or achievement.', id: crypto.randomUUID() },
+            { details: 'Description of responsibility or achievement.', id: crypto.randomUUID() },
+            { details: 'Description of responsibility or achievement.', id: crypto.randomUUID() }
+            ],
+            id: crypto.randomUUID()
         },
-        {title:'Intern Surveyor', company: 'Chevron', location:'Port Harcourt', duration:'2016 - 2018', 
-            'jobDescription':[
-                {details: 'Assisted in setting up and operating surveying instruments during fieldwork.', id:crypto.randomUUID()},  
-                {details: 'Observed and learned standard surveying procedures under the guidance of licensed surveyors.', id:crypto.randomUUID()},
-                {details: 'Helped in recording field measurements and organizing site data for analysis.', id:crypto.randomUUID()}, 
-                {details: "Supported office tasks such as drafting maps and inputting data into CAD or GIS systems.", id:crypto.randomUUID()}
-            ], 
-            id:crypto.randomUUID()
-        },
+        {
+            title: 'Job Title',
+            company: 'Company Name',
+            location: 'City',
+            duration: 'Start Year - End Year',
+            jobDescription: [
+            { details: 'Description of responsibility or achievement.', id: crypto.randomUUID() },
+            { details: 'Description of responsibility or achievement.', id: crypto.randomUUID() },
+            { details: 'Description of responsibility or achievement.', id: crypto.randomUUID() },
+            { details: 'Description of responsibility or achievement.', id: crypto.randomUUID() }
+            ],
+            id: crypto.randomUUID()
+        }
     ];
 
     const initialJobHistory = JSON.parse(localStorage.getItem('savedJobHistory')) || [...jobHistory];

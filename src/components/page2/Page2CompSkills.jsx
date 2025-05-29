@@ -14,14 +14,14 @@ const Page2ComputerSkills = () => {
     const inputRef = useRef();
 
     const compSkills = [
-        { title: 'JavaScript (ES6+)', id: crypto.randomUUID() },
-        { title: 'React.js', id: crypto.randomUUID() },
-        { title: 'Node.js & Express', id: crypto.randomUUID() },
-        { title: 'RESTful API Design', id: crypto.randomUUID() },
-        { title: 'Version Control (Git)', id: crypto.randomUUID() },
-        { title: 'Database Management (SQL/MongoDB)', id: crypto.randomUUID() },
-        { title: 'Responsive Web Design', id: crypto.randomUUID() },
-        { title: 'Linux & Command Line Tools', id: crypto.randomUUID() },
+        { title: 'Skill 1', id: crypto.randomUUID() },
+        { title: 'Skill 2', id: crypto.randomUUID() },
+        { title: 'Skill 3', id: crypto.randomUUID() },
+        { title: 'Skill 4', id: crypto.randomUUID() },
+        { title: 'Skill 5', id: crypto.randomUUID() },
+        { title: 'Skill 6', id: crypto.randomUUID() },
+        { title: 'Skill 7', id: crypto.randomUUID() },
+        { title: 'Skill 8', id: crypto.randomUUID() },
     ];
 
     const initialData = JSON.parse(localStorage.getItem('computerSkillsData')) || [...compSkills];

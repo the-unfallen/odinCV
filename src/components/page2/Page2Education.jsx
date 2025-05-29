@@ -21,8 +21,22 @@ const Page2Education = () => {
         const [miniLog, setMiniLog] = useState('');
     
         const educationRecord = [
-            {degreeType: 'BSC', course: 'Surveying and Geoinformatics', school: 'Unilag', location: 'Lagos, Nigeria', duration:'2018-2022', id: crypto.randomUUID()},
-            {degreeType: 'MSC', course: 'Surveying and Geoinformatics', school: 'Unilag', location: 'Lagos, Nigeria', duration:'2023-2025', id: crypto.randomUUID()},
+            {
+                degreeType: 'Degree Type',
+                course: 'Field of Study',
+                school: 'University Name',
+                location: 'City, Country',
+                duration: 'Start Year - End Year',
+                id: crypto.randomUUID(),
+            },
+            {
+                degreeType: 'Degree Type',
+                course: 'Field of Study',
+                school: 'University Name',
+                location: 'City, Country',
+                duration: 'Start Year - End Year',
+                id: crypto.randomUUID(),
+            },
         ];
     
         const initialEducationRecord = JSON.parse(localStorage.getItem('savedEducationRecord')) || [...educationRecord];
